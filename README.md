@@ -19,6 +19,18 @@ npm run dev
 Open `http://localhost:3000`. To use another port, copy `.env.example` to
 `.env` and change `HONO_PORT`.
 
+### Windows: use Git Bash
+
+If PowerShell blocks `npm.ps1` because of its execution policy, open the
+project in Git Bash instead. The regular commands work there without changing
+the PowerShell policy:
+
+```bash
+cd /c/ws/webb25/stayfinder-uml-diagrams
+npm install
+npm run dev
+```
+
 ## Useful commands
 
 ```bash
